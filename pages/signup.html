@@ -11,44 +11,49 @@
 </head>
 
 <body>
-    <div class="sign flex justify-center">
-        <div class="flex-col">
-        <div class="right mt-10  mb-12  border-[0.5px] border-gray-300 w-80">
-            <form action="">
+    <div class="sign flex justify-center ">
+        <div class="flex-col" >
+        <div class="right mt-10  mb-2  border-[0.5px] border-gray-300 w-80">
+            <div>
                 <img src="../Assets/Img/1522452762Instagram-logo-png-text.png" class="w-[50%] m-auto pt-8" alt="">
-                <p class="font-semibold text-gray-600 ms-9 w-64 justify-center">Sign up to see photos and videos <span
+                <p class="font-semibold text-gray-600 ms-9 w-64 justify-center"> Sign up to see photos and videos <span
                         class="ps-9">from your friends</span> </p>
-                <button type="submit"
-                    class="w-[80%] ms-8 mt-5  rounded-lg text-white p-1 text-sm font-semibold bg-blue-400 ">Log In with
-                    Facebook </button>
-                ________________OR_________________
-                <input class="mx-8 text-xs p-2 mt-12 m-1  font-normal border-[0.5px] border-gray-300 w-[80%]"
-                    type="text" placeholder="Mobile Number or Email">
-                <input class="mx-8 text-xs p-2  font-normal border-[0.5px] border-gray-300 w-[80%]" type="text"
+
+                <button type="submit" class="w-[80%]  ms-8 mt-5  rounded-lg text-white p-1 text-sm font-semibold bg-blue-400 ">
+                Log In withFacebook </button>
+                <div class="or ps-9 text-gray-500">
+                    <br>
+                        ________________OR_________________
+                </div>
+                <div>
+
+                    <input id="email" name="email" class="mx-8 text-xs p-2 mt-12 m-1  font-normal border-[0.5px] border-gray-300 w-[80%]"
+                    type="text" placeholder="Email">
+                    <input id="fullname" name="fullname" class="mx-8 text-xs p-2  m-1 font-normal border-[0.5px] border-gray-300 w-[80%]" type="text"
                     placeholder="Full name">
-                <input class="mx-8 text-xs p-2  font-normal border-[0.5px] border-gray-300 w-[80%]" type="text"
+                    <input id="username" name="username" class="mx-8 text-xs p-2 m-1  font-normal border-[0.5px] border-gray-300 w-[80%]" type="text"
                     placeholder="Username">
-                <input class="mx-8 text-xs p-2  font-normal border-[0.5px] border-gray-300 w-[80%]" type="text"
+                    <input id="password" name="password" class="mx-8 text-xs p-2  font-normal border-[0.5px] border-gray-300 w-[80%]" type="text"
                     placeholder="Password">
-                <p class="text-sm ps-7  font-light p-4">People who use our service may have uploaded your contact
-                    information to Instagram. Learn More</p>
-                <button type="submit"
-                    class="w-[80%] ms-8 mt-5  rounded-lg text-white p-1 text-sm font-semibold bg-blue-300 ">Sign
-                    up</button>
+                    <p class="text-sm ps-7  font-light p-4">People who use our service may have uploaded your contact
+                        information to Instagram. Learn More</p>
+                        <button id="jiji" class="w-[80%] ms-8 mt-5  rounded-lg text-white p-1 text-sm font-semibold bg-blue-300 ">Sign up</button>
+                </div>
 
                     <div class="or ps-9 pt-3 text-gray-400">
                         <p class="text-xs font-semibold m-5 ps-9 text-blue-900"><i
                                 class="fa-solid fa-square-facebook fa-sm"></i>Log in with Facebook</p>
                         <p class="text-xs font-light m-5 ps-12 text-blue-900">Forgot Password? </p>
                     </div>
-            </form>
+                </div>
+        </div>
+        <div class="p-3 text-center bottom border-[0.5px]  border-gray-300 w-80 mb-10">
+            <p class="text-sm font-normal p-3 "> Have an account?<span class="text-blue-600 font-semibold"><a href="">Log In</a></span></p>
+        </div>
+        <p class="text-center font-light text-sm mb-20"> Get the app.</p>
+    </div>
+    </div>
 
-        </div>
-        <div class="p-3 text-center bottom border-[0.5px]  border-gray-300 w-80">
-            <p class="text-sm font-normal "> have an account?<span class="text-blue-600 font-semibold"><a href="">Log In</a></span></p>
-        </div>
-    </div>
-    </div>
 </body>
-
+<script type="module" src="../script/signup.js"></script>
 </html>
